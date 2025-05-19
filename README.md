@@ -17,7 +17,7 @@ Modelowany system to instalacja alarmowa wykrywania i przeciwdziałania pożarom
 
 ### Urządzenia (Devices)
 - Czujniki temperatury - służy do pomiaru temperatury w pomieszczeniach 
-- Zraszacze przeciwpożarowe - służą do gaszenia pożarów gdy juz takie wystąpią
+- Zraszacze przeciwpożarowe - służą do gaszenia pożarów gdy już takie wystąpią
 - Czujniki dymu i czadu - sprawdzają ilość trującego gazu (czadu) i dymu w pomieszczeniu
 - Kamera monitorująca - monitoruje newralgiczne miejsca w budynku (serwerownie, kuchnie, rozdzielnie elektryczne)
 - Głośniki - informują ludzi o pożarze w budynku
@@ -27,13 +27,13 @@ Modelowany system to instalacja alarmowa wykrywania i przeciwdziałania pożarom
 
 - Wątek zbierający dane z czujników
 - Wątek przetwarzający dane
-- Wątek wynokujący akcje przeciwpożarowe
+- Wątek wykonujący akcje przeciwpożarowe
 
-### Procesy (Procceses)
+### Procesy (Processes)
 
-- Proces sterujący wszystkimi danymi wchodzącymi i wychodzącymi wewnatrz którego znajdują sie wszystkie powyższe wątki.
+- Proces sterujący wszystkimi danymi wchodzącymi i wychodzącymi, wewnątrz którego znajdują sie wszystkie powyższe wątki.
   
-### Procesor (Proccesor)
+### Procesor (Processor)
 
 - AMD Ryzen 5600h
 
