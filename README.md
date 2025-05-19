@@ -31,7 +31,7 @@ Modelowany system to instalacja alarmowa wykrywania i przeciwdziałania pożarom
 
 ### Procesy (Procceses)
 
-- Proces sterujący wszystkimi danymi wchodzącymi i wychodzącymi
+- Proces sterujący wszystkimi danymi wchodzącymi i wychodzącymi wewnatrz którego znajdują sie wszystkie powyższe wątki.
   
 ### Procesor (Proccesor)
 
