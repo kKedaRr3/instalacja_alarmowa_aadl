@@ -41,5 +41,7 @@ Modelowany system to instalacja alarmowa wykrywania i przeciwdziałania pożarom
 
 - Ethernet
 
+### System
 
+- System lączący wszystkie komponenty
 
