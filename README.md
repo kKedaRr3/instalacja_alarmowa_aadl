@@ -45,8 +45,12 @@ Modelowany system to instalacja alarmowa wykrywania i przeciwdziałania pożarom
 ### Magistrala (Bus)
 
 - Ethernet
+- WiFi
 
 ### System
 
 - System lączący wszystkie komponenty
 
+### Diagram modelu
+
+![Diagram systemu alarmowego](Images/instalacja_alarmowa.png)
