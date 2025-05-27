@@ -35,17 +35,22 @@ Modelowany system to instalacja alarmowa wykrywania i przeciwdziałania pożarom
 
 ### Procesy (Processes)
 
-- Proces zbierający dane i podejmujący decyzję na podstawie tych danych
+- Proces zbierający dane z czujników dymu i temperatury i podjmujący decyzję z wczystkich czujników i kamer
+- Proces zbierający dane z kamer i analizujący te dane
 - Proces wykonujacy wszystkie działania antypożarowe.
   
 ### Procesor (Processor)
 
 - AMD Ryzen 5600h
+- Intel Core i3
+- Intel Quark X1000
 
 ### Magistrala (Bus)
 
 - Ethernet
 - WiFi
+- I2C
+- GPIO
 
 ### System
 
@@ -53,4 +58,4 @@ Modelowany system to instalacja alarmowa wykrywania i przeciwdziałania pożarom
 
 ### Diagram modelu
 
-![Diagram systemu alarmowego](Images/instalacja_alarmowa.png)
+![Diagram systemu alarmowego](Images/instalacja_alarmowa_v2.png)
