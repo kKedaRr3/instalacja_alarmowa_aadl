@@ -59,3 +59,12 @@ Modelowany system to instalacja alarmowa wykrywania i przeciwdziałania pożarom
 ### Diagram modelu
 
 ![Diagram systemu alarmowego](Images/instalacja_alarmowa_v2.png)
+
+### Proponowane metody analizy systemu
+
+Brak
+
+### Bibliografia
+https://www.intel.com/content/www/us/en/products/sku/79084/intel-quark-soc-x1000-16k-cache-400-mhz/specifications.html
+https://www.researchgate.net/figure/Fire-detection-system-architecture-in-AADL-describing-data-flow-during-fire-event_fig3_318815437
+<br>W trakcie realizacji projektu korzystano z narzędzia AI ChatGPT (https://chatgpt.com)
