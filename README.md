@@ -17,27 +17,27 @@ Modelowany system to instalacja alarmowa wykrywania i przeciwdziałania pożarom
 ## Spis komponentów AADL
 
 ### Urządzenia (Devices)
-- Czujniki temperatury - służy do pomiaru temperatury w pomieszczeniach 
-- Zraszacze przeciwpożarowe - służą do gaszenia pożarów gdy już takie wystąpią
-- Czujniki dymu i czadu - sprawdzają ilość trującego gazu (czadu) i dymu w pomieszczeniu
-- Kamera monitorująca - monitoruje newralgiczne miejsca w budynku (serwerownie, kuchnie, rozdzielnie elektryczne)
-- Głośniki - informują ludzi o pożarze w budynku
-- Lampy alarmowe - podobnie jak głośniki informują w sposób wizualny o pożarze
-- Urządzenia wzywające pomoc - w przypadku wystąpienia pożaru straż pożarna jest wzywana na miejsce.
+- Czujniki temperatury (temp_sensor) - służy do pomiaru temperatury w pomieszczeniach 
+- Zraszacze przeciwpożarowe (fire_sprinkler) - służą do gaszenia pożarów gdy już takie wystąpią
+- Czujniki dymu i czadu (smoke_detector) - sprawdzają ilość trującego gazu (czadu) i dymu w pomieszczeniu
+- Kamera monitorująca (video_camera) - monitoruje newralgiczne miejsca w budynku (serwerownie, kuchnie, rozdzielnie elektryczne)
+- Głośniki (alarm_speaker) - informują ludzi o pożarze w budynku
+- Lampy alarmowe (alarm_lights) - podobnie jak głośniki informują w sposób wizualny o pożarze
+- Urządzenia wzywające pomoc (rescue_call_notifier) - w przypadku wystąpienia pożaru straż pożarna jest wzywana na miejsce.
 
 ### Wątki (Threads)
 
-- Wątek zbierający dane z czujników dymu i temperatury
-- Wątek zbierający dane z kamey
-- Wątek podejmujący decyzję na podstawie danych z czujników
-- Wątek wykonujący akcje przeciwpożarowe
-- Wątek sterujący zawiadamianiem służb ratunkowych
+- Wątek zbierający dane z czujników dymu i temperatury (smoke_temp_data_processing_thread)
+- Wątek zbierający dane z kamey (camera_data_processing_thread)
+- Wątek podejmujący decyzję na podstawie danych z czujników (decision_maker_thread)
+- Wątek wykonujący akcje przeciwpożarowe (fire_action_controller_thread)
+- Wątek sterujący zawiadamianiem służb ratunkowych (emergency_communication_thread)
 
 ### Procesy (Processes)
 
-- Proces zbierający dane z czujników dymu i temperatury i podjmujący decyzję z wczystkich czujników i kamer
-- Proces zbierający dane z kamer i analizujący te dane
-- Proces wykonujacy wszystkie działania antypożarowe.
+- Proces zbierający dane z czujników dymu i temperatury i podjmujący decyzję z wczystkich czujników i kamer (data_processing_process)
+- Proces zbierający dane z kamer i analizujący te dane (camera_image_processing_process)
+- Proces wykonujacy wszystkie działania antypożarowe. (fire_action_controller_process)
   
 ### Procesor (Processor)
 
