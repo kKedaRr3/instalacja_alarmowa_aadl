@@ -16,6 +16,12 @@ Modelowany system to instalacja alarmowa wykrywania i przeciwdziałania pożarom
 
 ## Spis komponentów AADL
 
+### Data 
+
+- Smoke Type - typ dla dancyh z odczytu z czujnika dymu
+- Temperature Type - typ danych z odczytu z czujnika temperatury
+- Camera Image Type - typ danych dla obrazu z kamery
+
 ### Urządzenia (Devices)
 - Czujniki temperatury (temp_sensor) - służy do pomiaru temperatury w pomieszczeniach 
 - Zraszacze przeciwpożarowe (fire_sprinkler) - służą do gaszenia pożarów gdy już takie wystąpią
